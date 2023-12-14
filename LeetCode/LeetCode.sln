@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Longest Substring Withou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Median of Two Sorted Arrays", "..\4. Median of Two Sorted Arrays\4. Median of Two Sorted Arrays.csproj", "{1A7DB2C4-F234-4B72-BADB-74631D535D03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Longest Palindromic Substring", "..\5. Longest Palindromic Substring\5. Longest Palindromic Substring.csproj", "{CE25CB0D-9830-4D60-856F-6E3AF4F25E90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1A7DB2C4-F234-4B72-BADB-74631D535D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A7DB2C4-F234-4B72-BADB-74631D535D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A7DB2C4-F234-4B72-BADB-74631D535D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE25CB0D-9830-4D60-856F-6E3AF4F25E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE25CB0D-9830-4D60-856F-6E3AF4F25E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE25CB0D-9830-4D60-856F-6E3AF4F25E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE25CB0D-9830-4D60-856F-6E3AF4F25E90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

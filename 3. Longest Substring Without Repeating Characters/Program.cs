@@ -5,7 +5,7 @@
 		static void Main(string[] args)
 		{
 			Solution solution = new Solution();
-			int l = solution.LengthOfLongestSubstring("ffdanfjdsajfsabababababaababababababajaffavaewvweavafhhdsfhasiudfhiuashufhasiaaaaaaa");
+			int l = solution.LengthOfLongestSubstring("pwwkew");
 			Console.WriteLine(l);
 		}
 
@@ -13,19 +13,21 @@
 		{
 			public int LengthOfLongestSubstring(string s)
 			{
-				int ans = 0;
-				int i = 0;
-				Dictionary<char, int> dict = new Dictionary<char, int>();
-				for (int j = 0; j < s.Length; j++)
+				HashSet<char> set = new HashSet<char>();
+
+				int l = 0;
+				int max= 0;
+				for (int r = 0; r< s.Length;r++)
 				{
-					if (dict.ContainsKey(s[j]))
+					while (set.Contains(s[r])) 
 					{
-						i = Math.Max(dict[s[j]], i);
+						set.Remove(s[l]);
+						l++;
 					}
-					ans = Math.Max(ans, j - i + 1);
-					dict[s[j]] = j + 1;
+					set.Add(s[r]);
+					max = Math.Max(max, set.Count());
 				}
-				return ans;
+				return max;
 			}
 		}
 	}

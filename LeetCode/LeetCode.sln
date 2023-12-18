@@ -25,7 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9. Palindrome Number", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. Regular Expression Matching", "..\10. Regular Expression Matching\10. Regular Expression Matching.csproj", "{7B96EF9D-202A-437D-866F-C2FD7B7EACBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Container With Most Water", "..\11. Container With Most Water\11. Container With Most Water.csproj", "{A46FF606-6E66-4061-BADF-81187121CC55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11. Container With Most Water", "..\11. Container With Most Water\11. Container With Most Water.csproj", "{A46FF606-6E66-4061-BADF-81187121CC55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14. Longest Common Prefix", "..\14. Longest Common Prefix\14. Longest Common Prefix.csproj", "{23C59AFD-544D-49F3-83C5-61118D8CB96C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17. Letter Combinations of a Phone Number", "..\17. Letter Combinations of a Phone Number\17. Letter Combinations of a Phone Number.csproj", "{DE0E9563-FBAC-4F7B-AFB2-0F23C1E32D3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Valid Parentheses", "..\20. Valid Parentheses\20. Valid Parentheses.csproj", "{A27FCAFF-5249-42D4-ADBF-4FB848E1AA68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{A46FF606-6E66-4061-BADF-81187121CC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A46FF606-6E66-4061-BADF-81187121CC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A46FF606-6E66-4061-BADF-81187121CC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C59AFD-544D-49F3-83C5-61118D8CB96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C59AFD-544D-49F3-83C5-61118D8CB96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C59AFD-544D-49F3-83C5-61118D8CB96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C59AFD-544D-49F3-83C5-61118D8CB96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0E9563-FBAC-4F7B-AFB2-0F23C1E32D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0E9563-FBAC-4F7B-AFB2-0F23C1E32D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0E9563-FBAC-4F7B-AFB2-0F23C1E32D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0E9563-FBAC-4F7B-AFB2-0F23C1E32D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27FCAFF-5249-42D4-ADBF-4FB848E1AA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27FCAFF-5249-42D4-ADBF-4FB848E1AA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27FCAFF-5249-42D4-ADBF-4FB848E1AA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27FCAFF-5249-42D4-ADBF-4FB848E1AA68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
